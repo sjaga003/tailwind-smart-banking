@@ -10,9 +10,9 @@ function App() {
   return (
     <div className="App">
       <div className="font-publicSans ">
-        {/* <Nav /> */}
+        <Nav />
         {/* <Hero /> */}
-        <About />
+        {/* <About /> */}
         {/* <Articles /> */}
         {/* <Footer /> */}
       </div>
