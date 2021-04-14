@@ -10,7 +10,7 @@ module.exports = {
         primary: ['hsl(233, 26%, 24%)'],
         secondary: {
           100: '#F3F3F3',
-          200: '#F4F5F7',
+          200: '#E9EAEC',
           300: 'hsl(233, 8%, 62%)',
         },
       },

@@ -12,8 +12,8 @@ function App() {
       <div className="font-publicSans">
         {/* <Nav /> */}
         <Hero />
-        {/* <About /> */}
-        {/* <Articles /> */}
+        <About />
+        <Articles />
         <Footer />
       </div>
     </div>

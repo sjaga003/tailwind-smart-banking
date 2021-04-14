@@ -13,12 +13,12 @@ const Hero = () => {
             Take your finanicial life online. Your coolBank account will be a
             one stop shop for spending, saving, budgeting and more!
           </span>
-          <button className="text-bold mt-3 rounded-full bg-gradient-to-r from-green-500 to-blue-500 px-4 py-2 text-white w-auto">
+          <button className="text-bold mt-3 rounded-full bg-gradient-to-r from-green-500 to-blue-500 px-4 py-2 text-white w-auto hover:from-green-400 hover:to-blue-400">
             Request Invite
           </button>
         </div>
-        <div className="order-1">
-          <img src={bgIntroMobile} alt="intro" />
+        <div className="order-1 flex justify-center">
+          <img className="w-4/5" src={bgIntroMobile} alt="intro" />
         </div>
       </div>
     </section>
