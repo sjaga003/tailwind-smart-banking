@@ -90,7 +90,7 @@ const About = () => {
   return (
     <section className="bg-secondary-200">
       <div className="flex flex-col py-24 items-center text-center px-8">
-        <span className="text-primary-0  text-3xl">Why choose coolBank?</span>
+        <span className="text-primary-0  text-3xl">Why choose BankSafe?</span>
         <span className="text-md text-secondary-300 pt-4">
           We leaverage Open Banking to turn your bank account into your
           financial hub. Control your finances like never before.

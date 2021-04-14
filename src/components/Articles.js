@@ -21,7 +21,7 @@ const articleInfo = [
   {
     image: plane,
     author: 'Wilson Hutton',
-    title: 'Take your coolBank card wherever you go',
+    title: 'Take your BankSafe card wherever you go',
     content: `We want you to enjoy your travels. This is why we don't charge any fees on purchases while you're abroad. We'll even show you...`,
   },
   {

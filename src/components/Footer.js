@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from '../img/logo.svg';
+import logo from '../img/banksafe_logo_white.svg';
 
 const Footer = () => {
   return (
     <footer className="bg-primary-0 text-white flex flex-col items-center py-10">
       <span className="pb-8">
-        <img src={logo} alt="logo" />
+        <img className="h-10" src={logo} alt="logo" />
       </span>
       <div className="flex justify-center w-full  my-5">
         <span className="hover:text-green-500 cursor-pointer px-2">
@@ -81,7 +81,7 @@ const Footer = () => {
           Request Invite
         </button>
         <span className="text-secondary-300">
-          © coolBank. All Rights Reserved
+          © BankSafe. All Rights Reserved
         </span>
       </div>
     </footer>

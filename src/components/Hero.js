@@ -10,7 +10,7 @@ const Hero = () => {
             Next generation of digital banking
           </span>
           <span className="text-md text-secondary-300 pt-3">
-            Take your finanicial life online. Your coolBank account will be a
+            Take your finanicial life online. Your BankSafe account will be a
             one stop shop for spending, saving, budgeting and more!
           </span>
           <button className="text-bold mt-3 rounded-full bg-gradient-to-r from-green-500 to-blue-500 px-4 py-2 text-white w-auto hover:from-green-400 hover:to-blue-400">
