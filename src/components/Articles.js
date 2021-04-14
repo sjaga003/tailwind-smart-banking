@@ -34,12 +34,16 @@ const articleInfo = [
 
 const Articles = () => {
   return (
-    <section className="py-16 flex flex-col items-center bg-secondary-100 overflow-hidden rounded-md">
-      <span className="text-primary-0 text-3xl pb-4">Latest Articles</span>
-      <div className="px-4">
-        {articleInfo.map((card) => (
-          <ArticleCard cardInfo={card} />
-        ))}
+    <section className="py-16 bg-secondary-100 lg:px-20 xl:px-40">
+      <div className=" flex flex-col flex-wrap ">
+        <span className="text-primary-0 text-3xl pb-8  sm:px-10">
+          Latest Articles
+        </span>
+        <div className="px-10 gap-8 md:gap-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+          {articleInfo.map((card) => (
+            <ArticleCard cardInfo={card} />
+          ))}
+        </div>
       </div>
     </section>
   );
