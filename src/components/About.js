@@ -88,14 +88,14 @@ const featureInfo = [
 
 const About = () => {
   return (
-    <section className="bg-secondary-200">
-      <div className="flex flex-col py-24 items-center text-center px-8">
-        <span className="text-primary-0  text-3xl">Why choose BankSafe?</span>
-        <span className="text-md text-secondary-300 pt-4">
+    <section className="bg-secondary-200 lg:px-20 xl:px-40">
+      <div className="flex flex-col py-24 items-center text-center px-8 md:items-start">
+        <span className="text-primary-0 text-3xl">Why choose BankSafe?</span>
+        <span className="text-md text-secondary-300 pt-4  md:text-left max-w-lg">
           We leaverage Open Banking to turn your bank account into your
           financial hub. Control your finances like never before.
         </span>
-        <div className="pt-8">
+        <div className="pt-8 md:flex gap-8">
           {featureInfo.map((card) => (
             <FeatureCard cardInfo={card} />
           ))}
