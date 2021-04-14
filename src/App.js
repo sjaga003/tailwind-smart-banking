@@ -9,11 +9,11 @@ import Nav from './components/Nav';
 function App() {
   return (
     <div className="App">
-      <div className="font-publicSans">
-        <Nav />
+      <div className="font-publicSans ">
+        {/* <Nav />
         <Hero />
         <About />
-        <Articles />
+        <Articles /> */}
         <Footer />
       </div>
     </div>

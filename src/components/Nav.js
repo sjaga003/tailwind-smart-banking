@@ -54,7 +54,7 @@ const Nav = () => {
         >
           <ul
             onClick={(e) => e.stopPropagation()}
-            className="bg-white m-4 rounded-md flex flex-col items-center p-6"
+            className="bg-white m-4 rounded-md flex flex-col items-center p-8 text-lg"
           >
             <li className="pb-2 cursor-pointer hover:text-green-500">Home</li>
             <li className="pb-2 cursor-pointer hover:text-green-500">About</li>
