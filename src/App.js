@@ -10,11 +10,11 @@ function App() {
   return (
     <div className="App">
       <div className="font-publicSans">
-        <Nav />
+        {/* <Nav /> */}
         <Hero />
         <About />
-        <Articles />
-        <Footer />
+        {/* <Articles />
+        <Footer /> */}
       </div>
     </div>
   );
