@@ -3,7 +3,7 @@ import logo from '../img/banksafe_logo_white.svg';
 
 const Footer = () => {
   return (
-    <footer className="bg-primary-0 text-white flex flex-col items-center py-20 md:flex-row md:px-10 md:justify-between ">
+    <footer className="bg-primary-0 text-white flex flex-col items-center lg:px-20 py-20 md:flex-row md:px-10 md:justify-between xl:px-60">
       <div className="flex flex-col items-center">
         <span className="pb-4">
           <img className="h-10" src={logo} alt="logo" />

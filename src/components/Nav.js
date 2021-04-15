@@ -16,34 +16,40 @@ const Nav = () => {
 
   return (
     <>
-      <nav className="flex px-4 w-full justify-between py-6">
-        {/* <div>
-        <img src="" alt="" />
-      </div>
-      <div>
-        <ul>
-          <li>NavLink</li>
-          <li>NavLink</li>
-          <li>NavLink</li>
-          <li>NavLink</li>
-          <li>NavLink</li>
-        </ul>
-      </div>
-      <div>
-        <button>Request Invite</button>
-      </div> */}
+      <nav className="py-4">
+        <div className="hidden lg:flex px-20 xl:px-60 w-full justify-between">
+          <div>
+            <img className="h-10" src={logo} alt="Logo" />
+          </div>
 
-        <img className="h-8" src={logo} alt="Logo" />
-        <span
-          className="flex self-center cursor-pointer"
-          onClick={() => setNavOpen(!navOpen)}
-        >
-          {navOpen ? (
-            <img src={close} onClick={() => setNavOpen(false)} alt="close" />
-          ) : (
-            <img src={burger} onClick={() => setNavOpen(true)} alt="burger" />
-          )}
-        </span>
+          <ul className="flex gap-8 items-center text-secondary-300">
+            <li className="cursor-pointer hover:text-green-500">Home</li>
+            <li className="cursor-pointer hover:text-green-500">About</li>
+            <li className="cursor-pointer hover:text-green-500">Contact</li>
+            <li className="cursor-pointer hover:text-green-500">Blog</li>
+            <li className="cursor-pointer hover:text-green-500">Careers</li>
+          </ul>
+
+          <div className="flex items-center">
+            <button className="text-bold rounded-full bg-gradient-to-r from-green-500 to-blue-500 px-4 py-2 text-white w-auto hover:from-green-400 hover:to-blue-400">
+              Request Invite
+            </button>
+          </div>
+        </div>
+
+        <div className="lg:hidden flex px-4 w-full justify-between">
+          <img className="h-8" src={logo} alt="Logo" />
+          <span
+            className="flex self-center cursor-pointer"
+            onClick={() => setNavOpen(!navOpen)}
+          >
+            {navOpen ? (
+              <img src={close} onClick={() => setNavOpen(false)} alt="close" />
+            ) : (
+              <img src={burger} onClick={() => setNavOpen(true)} alt="burger" />
+            )}
+          </span>
+        </div>
       </nav>
       {navOpen && (
         <div
