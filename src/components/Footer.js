@@ -82,7 +82,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex flex-col items-center md:self-start  ">
-        <button className="md:m-0 text-bold mt-3 rounded-full bg-gradient-to-r from-green-500 to-blue-500 px-4 py-2 text-white w-36 mb-4 hover:from-green-400 hover:to-blue-400">
+        <button className="mb-3 md:m-0 text-bold rounded-full bg-gradient-to-r from-green-500 to-blue-500 px-6 py-3 text-white w-auto hover:from-green-400 hover:to-blue-400">
           Request Invite
         </button>
         <span className="text-secondary-300 md:mt-11">

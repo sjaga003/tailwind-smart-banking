@@ -1,6 +1,5 @@
 import React from 'react';
 import FeatureCard from './FeatureCard';
-import budget from '../img/icon-budgeting.svg';
 
 const featureInfo = [
   {
@@ -97,7 +96,7 @@ const About = () => {
         </span>
         <div className="pt-8 md:flex gap-8">
           {featureInfo.map((card) => (
-            <FeatureCard cardInfo={card} />
+            <FeatureCard key={card.title} cardInfo={card} />
           ))}
         </div>
       </div>

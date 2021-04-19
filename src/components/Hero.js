@@ -13,9 +13,7 @@ const Hero = () => {
             Take your finanicial life online. Your BankSafe account will be a
             one stop shop for spending, saving, budgeting and more!
           </span>
-          <button className="text-bold rounded-full bg-gradient-to-r from-green-500 to-blue-500 px-6 py-3 text-white w-auto hover:from-green-400 hover:to-blue-400">
-            Request Invite
-          </button>
+          <button className="button">Request Invite</button>
         </div>
         <div className="order-1 flex justify-center md:order-2 md:justify-end lg:flex-1">
           <img className="w-4/5 lg:w-full" src={bgIntroMobile} alt="intro" />

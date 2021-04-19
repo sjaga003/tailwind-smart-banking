@@ -41,7 +41,7 @@ const Articles = () => {
         </span>
         <div className="px-2 lg:px-0 gap-8 md:gap-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {articleInfo.map((card) => (
-            <ArticleCard cardInfo={card} />
+            <ArticleCard key={card.title} cardInfo={card} />
           ))}
         </div>
       </div>

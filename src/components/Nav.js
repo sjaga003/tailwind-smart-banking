@@ -31,9 +31,7 @@ const Nav = () => {
           </ul>
 
           <div className="flex items-center">
-            <button className="text-bold rounded-full bg-gradient-to-r from-green-500 to-blue-500 px-4 py-2 text-white w-auto hover:from-green-400 hover:to-blue-400">
-              Request Invite
-            </button>
+            <button className="button">Request Invite</button>
           </div>
         </div>
 
