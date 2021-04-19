@@ -1,6 +1,6 @@
 # BankSafe
 
-![GIF](media\BankSafe.gif)
+![GIF](media/BankSafe.gif)
 
 BankSafe is a frontend mockup of a secure banking website created using TailwindCSS. View the live site [here](https://admiring-darwin-606588.netlify.app/)!
 
